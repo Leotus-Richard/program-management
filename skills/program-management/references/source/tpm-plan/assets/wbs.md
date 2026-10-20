@@ -1,0 +1,69 @@
+> Archived source reference, repackaged by Leotus-Richard on 2026-10-20. This is not an active skill or execution policy. Use the domain hub for current task scope and available capabilities; host commands, integrations, local-only rules, identity rules, and publishing steps below are historical examples. Modifications: discovery filename and local links normalized where needed, machine paths replaced where present; source substance retained.
+
+# {{Project}} — project plan (work breakdown)
+
+Source: `tasks.md`, `buffer-matrix.md`
+Last updated: YYYY-MM-DD
+Plan status: {{baseline / re-planned on YYYY-MM-DD because …}}
+
+Duration = estimate × (1 + buffer %). Calendar time = duration ÷ resources,
+plus any explicit unavailability tasks. Predecessor types: fs (finish→start,
+default), ss, ff, sf; `+lag` / `-lead` where implementation can start on a
+partial design.
+
+| ID | Story / task | Req(s) | Estimate | Buffer % | Duration | Predecessor(s) | Crash (max people) | Resources | Start | End | Actual start | Actual end | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | **{{Story}}** | 1, 1.1 | | | | | | | | | | | |
+| 1.1 | {{task}} | 1 | | | | — | 1 | | | | | | |
+| 1.2 | {{task}} | 1.1 | | | | 1.1 fs | 2 | | | | | | |
+| 1.3 | {{task}} | 1.1 | | | | 1.1 ff (API def ready) | 1 | | | | | | fast-track candidate |
+| — | {{Name}} on-call | — | — | — | 1 wk | — | — | {{Name}} | | | | | explicit unavailability |
+| 2 | **{{Story}}** | 2.1–2.3 | | | | 1 fs | | | | | | | |
+
+## Fast-track and crash options (recorded ahead of need)
+
+| Task | Option | Condition |
+|---|---|---|
+| 1.3 | start implementation when API definition is signed off | design 1.2 ≥ API section done |
+| 2.2 | crash to 2 people | second package is separable |
+
+## Milestones
+
+| Milestone | Definition | Planned date | Actual |
+|---|---|---|---|
+| Design complete | | | |
+| Implementation complete | code written, reviewed, and deployed to prod | | |
+| UAT complete | | | |
+| Launch | | | |
+
+## Feature list
+
+Top-level stories that can ship independently. This is what stakeholders
+call "milestones" in conversation; it feeds the status report.
+
+| Feature | Stories | Use cases | Planned date | Status |
+|---|---|---|---|---|
+| | | | | |
+
+## Cross-project dependencies (program only)
+
+| This project needs | From project | By | Risk ID |
+|---|---|---|---|
+| | | | |
+
+## Buffer tracking
+
+| Date | Buffer planned | Buffer consumed | Trajectory | Action |
+|---|---|---|---|---|
+| | | | on track / rebase needed | |
+
+## Assumptions
+
+- {{e.g. estimates uniform across platforms; no resource timing constraints;
+  all predecessors fs — say which of these are true}}
+
+## Open questions
+
+| # | Question | Task(s) affected | Owner | Needed by |
+|---|---|---|---|---|
+| | | | | |

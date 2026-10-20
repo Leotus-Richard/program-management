@@ -1,0 +1,49 @@
+> Archived source reference, repackaged by Leotus-Richard on 2026-10-20. This is not an active skill or execution policy. Use the domain hub for current task scope and available capabilities; host commands, integrations, local-only rules, identity rules, and publishing steps below are historical examples. Modifications: discovery filename and local links normalized where needed, machine paths replaced where present; source substance retained.
+
+---
+name: tpm-stakeholders
+description: "Draft local stakeholder, communication and RACI plans for a program/project; not sending messages, scheduling meetings or establishing real assignments."
+license: Apache-2.0
+metadata:
+  version: "1.1.0"
+  profile: "local-task-toolkit"
+  invocation: "task-specific"
+  integration-status: "portable-instructions-host-untested"
+---
+
+# TPM stakeholders
+
+## Scope
+
+Read `references/local-execution-contract.md` and `references/tpm-integration-rules.md` at task start. Work only from local files and supplied context. Produce drafts, not external communications, automatic implementation or persistent modes.
+
+## Workflow
+
+1. Read local charter, affected systems/teams, supplied stakeholder lists, CODEOWNERS and relevant notes. Do not discover people through remote services.
+2. Select only useful communication types and propose cadence/slot/channel/owner. Sequence project reports before program summaries when those summaries consume them.
+3. Record impacted people/groups, roles, projects, SMEs and preferred channels; unknown identities remain visible rather than invented.
+4. Propose a RACI with one accountable role per activity and explicit optional consulted/informed cells. Mark assignments and permissions unconfirmed unless evidence shows confirmation.
+5. Draft kickoff, leadership-sync and escalation formats. Pre-communication is a checklist of required human actions, not proof a message was sent.
+6. Run clarity checks and write comms-plan.md. Do not send communications, create calendars/reminders or start recurring automations.
+
+## Reference and template map
+
+| Bundled file | Read or use when |
+|---|---|
+| `references/stakeholders.md` | before choosing audiences, roles and cadence |
+| `references/tpm-common/clarity.md` | for final clarity and ownership checks |
+| `assets/comms-plan.md` | copy and fill the local communication plan |
+
+## Default output
+
+When a canonical work graph exists, reuse its work IDs and distinguish actual owners/approvers from proposals. A RACI assignment does not satisfy an authority contract; only actual approval evidence can complete an approval item.
+
+Local stakeholder/comms/RACI plan, proposed cadence, pre-communication/escalation checklist and confirmation gaps.
+
+## Failure boundary
+
+Keep missing estimates, capacity, names, approvals and dates as explicit unknowns. Repair only the failing artifact within the shared bounds, then escalate unresolved decisions. A populated template is not evidence that work, notification, approval or delivery occurred.
+
+## Provenance and changes
+
+Adapted from [BittahCriminal/tpm-plugin](https://github.com/BittahCriminal/tpm-plugin/blob/cb7d3efabc807136e17d5146184f1e95ddbee5a4/skills/tpm-stakeholders/SKILL.md) at `cb7d3efabc807136e17d5146184f1e95ddbee5a4`. The original Apache-2.0 license is included. `references/ORIGINAL-SKILL.md` preserves the original hub for provenance comparisons only; its sibling/plugin syntax does not override this portable hub. Changes: local-only task scope, explicit resource paths, honest unknowns, dependency-aware routing, schedule safeguards and no network refresh. Native host behavior remains untested.

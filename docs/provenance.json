@@ -1,0 +1,666 @@
+{
+  "intakeVersion": "1.3.0",
+  "intakeArchiveSha256": "03bfd3c788e224247fa1fd14f5d614961499e0ccf740df2d4f3ec2cfa75bd6ad",
+  "prepared": "2026-10-20",
+  "activeSkillCount": 1,
+  "sourceBundleCount": 6,
+  "sources": [
+    {
+      "id": "tpm",
+      "source": "tpm:tpm",
+      "sourceUrl": "https://github.com/BittahCriminal/tpm-plugin/blob/cb7d3efabc807136e17d5146184f1e95ddbee5a4/skills/tpm/SKILL.md",
+      "sourceSha256": "ab7c6a3d86652b43ce2201fa98c6986393a5947c5736f6ac541e0546269d6741",
+      "originalReference": "references/ORIGINAL-SKILL.md",
+      "dependencies": [
+        "tpm-charter",
+        "tpm-plan",
+        "tpm-risk",
+        "tpm-stakeholders",
+        "tpm-status"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/tpm",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "tpm-charter",
+      "source": "tpm:tpm-charter",
+      "sourceUrl": "https://github.com/BittahCriminal/tpm-plugin/blob/cb7d3efabc807136e17d5146184f1e95ddbee5a4/skills/tpm-charter/SKILL.md",
+      "sourceSha256": "429466270904276660d94404d7b05ce274ddd9e435ae804bc1327a6f271d14ff",
+      "originalReference": "references/ORIGINAL-SKILL.md",
+      "dependencies": [
+        "domain-modeling"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/tpm-charter",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "tpm-plan",
+      "source": "tpm:tpm-plan",
+      "sourceUrl": "https://github.com/BittahCriminal/tpm-plugin/blob/cb7d3efabc807136e17d5146184f1e95ddbee5a4/skills/tpm-plan/SKILL.md",
+      "sourceSha256": "5fcd07db87cc97a95d6a7eb7449f0808a24f45b3b3ee30c2dee75080fd2aa771",
+      "originalReference": "references/ORIGINAL-SKILL.md",
+      "dependencies": [
+        "to-tickets",
+        "graph-engineering-skill",
+        "work-tracking"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/tpm-plan",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "tpm-risk",
+      "source": "tpm:tpm-risk",
+      "sourceUrl": "https://github.com/BittahCriminal/tpm-plugin/blob/cb7d3efabc807136e17d5146184f1e95ddbee5a4/skills/tpm-risk/SKILL.md",
+      "sourceSha256": "174cd41b148adc04d231a93cdaf45fed4d18dfbcf178722e84496ea46f6fc228",
+      "originalReference": "references/ORIGINAL-SKILL.md",
+      "dependencies": [
+        "work-tracking"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/tpm-risk",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "tpm-stakeholders",
+      "source": "tpm:tpm-stakeholders",
+      "sourceUrl": "https://github.com/BittahCriminal/tpm-plugin/blob/cb7d3efabc807136e17d5146184f1e95ddbee5a4/skills/tpm-stakeholders/SKILL.md",
+      "sourceSha256": "5c7e51a34134047aa956f88284b9069b78ce8d9e17b4112e96f4c9c8bcbed5f4",
+      "originalReference": "references/ORIGINAL-SKILL.md",
+      "dependencies": [],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/tpm-stakeholders",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "tpm-status",
+      "source": "tpm:tpm-status",
+      "sourceUrl": "https://github.com/BittahCriminal/tpm-plugin/blob/cb7d3efabc807136e17d5146184f1e95ddbee5a4/skills/tpm-status/SKILL.md",
+      "sourceSha256": "c7468b8c2e6c6da9b55cc06ba334baec8202817790ba4bd3de140650c8b0500e",
+      "originalReference": "references/ORIGINAL-SKILL.md",
+      "dependencies": [
+        "work-tracking"
+      ],
+      "dependencyKind": "conditional-discipline",
+      "path": "skills/tpm-status",
+      "runtime": "instructions-only",
+      "remoteActions": false,
+      "persistent": false,
+      "hostTested": false,
+      "license": "Apache-2.0"
+    }
+  ],
+  "files": [
+    {
+      "sourcePath": "skills/tpm/LICENSE",
+      "sourceSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "packagePath": "skills/program-management/references/source/tpm/LICENSE",
+      "packageSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/tpm/SKILL.md",
+      "sourceSha256": "98a0825f72fdd7bc4912070134fc2c67d1ba9acd450c0df2bde747559218446d",
+      "packagePath": "skills/program-management/references/source/tpm/ORIGINAL-SKILL.md",
+      "packageSha256": "1ba88fecff333be5583d442db0644cece6d7b10473f5a0ae8c4f23110391be6a",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm/references/clarity.md",
+      "sourceSha256": "b181507a8b1866e0eac0b03f3a7ae6e4c4d95e1bd04d3a088a7d5ac7303438e2",
+      "packagePath": "skills/program-management/references/source/tpm/references/clarity.md",
+      "packageSha256": "8047c25d920a00ca3a1a58d1194bc265dca787c3633d207f9998edfe08c51672",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/program-management/references/source/tpm/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm/references/ORIGINAL-SKILL.md",
+      "sourceSha256": "ab7c6a3d86652b43ce2201fa98c6986393a5947c5736f6ac541e0546269d6741",
+      "packagePath": "skills/program-management/references/source/tpm/references/ORIGINAL-SKILL.md",
+      "packageSha256": "46768d728eec932918513fa979197fe15aeb4e28b0678d46ec7186d4febaa37b",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm/references/program-vs-project.md",
+      "sourceSha256": "9c2cf75368dac958b04620b7a0f5f0780e58d212b8c2da720d8df91025ca761d",
+      "packagePath": "skills/program-management/references/source/tpm/references/program-vs-project.md",
+      "packageSha256": "2d42194146f0cce0af8eb40029fac2a5d3bde8b94ace31ec3d8901cb0e0cd4ef",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm/references/SOURCES.md",
+      "sourceSha256": "2a9ce0921eb1dd7ac8fe67f545efaac32668caebad9a101306462877c491789a",
+      "packagePath": "skills/program-management/references/source/tpm/references/SOURCES.md",
+      "packageSha256": "f3ac96bd1a2741f713feea1b8b7e6c1eff947458f53dc48060e390a36af90154",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm/references/tpm-integration-rules.md",
+      "sourceSha256": "fa84c3b0ad7e4762fd04c4288a98e9c05cb321969cd44064d0ab13a27c07e7be",
+      "packagePath": "skills/program-management/references/source/tpm/references/tpm-integration-rules.md",
+      "packageSha256": "efac38fe7ef50356154690eadf53a22bc2ff8b8f75167f3a5377ac94823f315e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/LICENSE",
+      "sourceSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "packagePath": "skills/program-management/references/source/tpm-charter/LICENSE",
+      "packageSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/tpm-charter/SKILL.md",
+      "sourceSha256": "2e04fc6bd8bbaa2f847226468e7b430b798a0f99c8b56fc435907561f7536b06",
+      "packagePath": "skills/program-management/references/source/tpm-charter/ORIGINAL-SKILL.md",
+      "packageSha256": "e0504366b9a2cc8aaf89ed6dede668b82b18c78e7174a5bb1d6c1d05a078b0c2",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/assets/charter.md",
+      "sourceSha256": "9aadf663a27dfa87b8e32fd5ab624a775874bc2f6354cfb4faad306b9d1d665d",
+      "packagePath": "skills/program-management/references/source/tpm-charter/assets/charter.md",
+      "packageSha256": "30c223bc46fec46ff166c3dc9317b88c1f8b1e2aac19658338ece436a873e524",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/charter.md",
+      "sourceSha256": "1adbf15fef5b3ee457fa01e94ed863b9d72d7bdc892891bb92760e44c0e3c0aa",
+      "packagePath": "skills/program-management/references/source/tpm-charter/references/charter.md",
+      "packageSha256": "a8cf2688352fedc6b8c85cacbef825b393d73ef4993604248d254c40ac25a3f1",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/program-management/references/source/tpm-charter/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/ORIGINAL-SKILL.md",
+      "sourceSha256": "429466270904276660d94404d7b05ce274ddd9e435ae804bc1327a6f271d14ff",
+      "packagePath": "skills/program-management/references/source/tpm-charter/references/ORIGINAL-SKILL.md",
+      "packageSha256": "f23f88d211a6841d90af88b7fe1edd3f6bfc4ba8bf6b4b87cd842682b4afefe7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/tpm-integration-rules.md",
+      "sourceSha256": "fa84c3b0ad7e4762fd04c4288a98e9c05cb321969cd44064d0ab13a27c07e7be",
+      "packagePath": "skills/program-management/references/source/tpm-charter/references/tpm-integration-rules.md",
+      "packageSha256": "efac38fe7ef50356154690eadf53a22bc2ff8b8f75167f3a5377ac94823f315e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/tpm-common/clarity.md",
+      "sourceSha256": "b181507a8b1866e0eac0b03f3a7ae6e4c4d95e1bd04d3a088a7d5ac7303438e2",
+      "packagePath": "skills/program-management/references/source/tpm-charter/references/tpm-common/clarity.md",
+      "packageSha256": "8047c25d920a00ca3a1a58d1194bc265dca787c3633d207f9998edfe08c51672",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/tpm-common/program-vs-project.md",
+      "sourceSha256": "9c2cf75368dac958b04620b7a0f5f0780e58d212b8c2da720d8df91025ca761d",
+      "packagePath": "skills/program-management/references/source/tpm-charter/references/tpm-common/program-vs-project.md",
+      "packageSha256": "2d42194146f0cce0af8eb40029fac2a5d3bde8b94ace31ec3d8901cb0e0cd4ef",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/tpm-common/SOURCES.md",
+      "sourceSha256": "2a9ce0921eb1dd7ac8fe67f545efaac32668caebad9a101306462877c491789a",
+      "packagePath": "skills/program-management/references/source/tpm-charter/references/tpm-common/SOURCES.md",
+      "packageSha256": "f3ac96bd1a2741f713feea1b8b7e6c1eff947458f53dc48060e390a36af90154",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/LICENSE",
+      "sourceSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "packagePath": "skills/program-management/references/source/tpm-plan/LICENSE",
+      "packageSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/tpm-plan/SKILL.md",
+      "sourceSha256": "195e668a560a552fc46f3639bffc5ed2bcdbeb233b1b6af825fdd192f696bf04",
+      "packagePath": "skills/program-management/references/source/tpm-plan/ORIGINAL-SKILL.md",
+      "packageSha256": "870469cd96ffe598902d9e96158b2000a1930b19f14406fb18a70c0af7cc13c0",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/assets/buffer-matrix.md",
+      "sourceSha256": "da8546eaf356611bd8807d3c4392339a88660a5329d5727795f9138d21c2580f",
+      "packagePath": "skills/program-management/references/source/tpm-plan/assets/buffer-matrix.md",
+      "packageSha256": "ebc37a6d64a76520caf3a5b6f031574a6768ca5e3fa0c491f885269715f0db2a",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/assets/requirements.md",
+      "sourceSha256": "0a19afe09f2fef4a8ea2eb8b4aa07543ab136f4ed747506e2db2e118655117ee",
+      "packagePath": "skills/program-management/references/source/tpm-plan/assets/requirements.md",
+      "packageSha256": "0972dfe4a717f0fa63ccaf9b501406c08acb30ec7879425cf828db40431f0edc",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/assets/tasks.md",
+      "sourceSha256": "9c40f223890ad2b0a329a9a366b50990c6c78aabcb1399ec9a050156834ca12a",
+      "packagePath": "skills/program-management/references/source/tpm-plan/assets/tasks.md",
+      "packageSha256": "c67761432b48111bedee2df53c9cf885d3bfb777ac0818bfb198c65bdda05eba",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/assets/wbs.md",
+      "sourceSha256": "ccc5fbb3ede411346b5bbead9c1a306ae85a9ad74d578b474120e2e4dfeff960",
+      "packagePath": "skills/program-management/references/source/tpm-plan/assets/wbs.md",
+      "packageSha256": "0a8a3add69aaaeee37e19f2e8e1fcbf68a1e4f8de01fc08df38551c8efdbfe07",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/program-management/references/source/tpm-plan/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/ORIGINAL-SKILL.md",
+      "sourceSha256": "5fcd07db87cc97a95d6a7eb7449f0808a24f45b3b3ee30c2dee75080fd2aa771",
+      "packagePath": "skills/program-management/references/source/tpm-plan/references/ORIGINAL-SKILL.md",
+      "packageSha256": "a3d1297c287ef1499637a742d0585d7d17bd2a51134ef74464ff0c20fedc88ca",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/planning.md",
+      "sourceSha256": "77d2b60663659357d849bfe8eb25b867dfbb778ef80ead7f221871398a88f716",
+      "packagePath": "skills/program-management/references/source/tpm-plan/references/planning.md",
+      "packageSha256": "4dec8f908effe0e94059620e13a746d00b17862a8f3da1e2064cabb623acc9d1",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/tpm-integration-rules.md",
+      "sourceSha256": "fa84c3b0ad7e4762fd04c4288a98e9c05cb321969cd44064d0ab13a27c07e7be",
+      "packagePath": "skills/program-management/references/source/tpm-plan/references/tpm-integration-rules.md",
+      "packageSha256": "efac38fe7ef50356154690eadf53a22bc2ff8b8f75167f3a5377ac94823f315e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/tpm-common/clarity.md",
+      "sourceSha256": "b181507a8b1866e0eac0b03f3a7ae6e4c4d95e1bd04d3a088a7d5ac7303438e2",
+      "packagePath": "skills/program-management/references/source/tpm-plan/references/tpm-common/clarity.md",
+      "packageSha256": "8047c25d920a00ca3a1a58d1194bc265dca787c3633d207f9998edfe08c51672",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/tpm-common/program-vs-project.md",
+      "sourceSha256": "9c2cf75368dac958b04620b7a0f5f0780e58d212b8c2da720d8df91025ca761d",
+      "packagePath": "skills/program-management/references/source/tpm-plan/references/tpm-common/program-vs-project.md",
+      "packageSha256": "2d42194146f0cce0af8eb40029fac2a5d3bde8b94ace31ec3d8901cb0e0cd4ef",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/tpm-common/SOURCES.md",
+      "sourceSha256": "2a9ce0921eb1dd7ac8fe67f545efaac32668caebad9a101306462877c491789a",
+      "packagePath": "skills/program-management/references/source/tpm-plan/references/tpm-common/SOURCES.md",
+      "packageSha256": "f3ac96bd1a2741f713feea1b8b7e6c1eff947458f53dc48060e390a36af90154",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/LICENSE",
+      "sourceSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "packagePath": "skills/program-management/references/source/tpm-risk/LICENSE",
+      "packageSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/tpm-risk/SKILL.md",
+      "sourceSha256": "8aa70bf0e42af55fe18c991e31b41cd89920b663a9ef2ea07190c21c9fe3f8a9",
+      "packagePath": "skills/program-management/references/source/tpm-risk/ORIGINAL-SKILL.md",
+      "packageSha256": "cb5694fe6986f9faf6fcda5e301b7c506f8fc5aad87682159efe265b66350384",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/assets/risk-register.md",
+      "sourceSha256": "02509992354a97414d1b0a17da096abb6d35ed1f3a4046a6eb976a32288929c3",
+      "packagePath": "skills/program-management/references/source/tpm-risk/assets/risk-register.md",
+      "packageSha256": "bffb0c15b18b516625db47bca352ba6b06d1adc6ff56b843635612172483b489",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/program-management/references/source/tpm-risk/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/ORIGINAL-SKILL.md",
+      "sourceSha256": "174cd41b148adc04d231a93cdaf45fed4d18dfbcf178722e84496ea46f6fc228",
+      "packagePath": "skills/program-management/references/source/tpm-risk/references/ORIGINAL-SKILL.md",
+      "packageSha256": "1457a279c8b807af65cfa6f438370c3db31092c8842acb6c45eee1c92ec0c390",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/risk.md",
+      "sourceSha256": "900c6810e98d687b5b14f457f317c7938ed2b49e3a387f57205925bfa2f0be28",
+      "packagePath": "skills/program-management/references/source/tpm-risk/references/risk.md",
+      "packageSha256": "97a0ee934fbd5e3f2ad889d3c5b12f49f1d547f85db800bcfcd3505950b63b43",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/tpm-integration-rules.md",
+      "sourceSha256": "fa84c3b0ad7e4762fd04c4288a98e9c05cb321969cd44064d0ab13a27c07e7be",
+      "packagePath": "skills/program-management/references/source/tpm-risk/references/tpm-integration-rules.md",
+      "packageSha256": "efac38fe7ef50356154690eadf53a22bc2ff8b8f75167f3a5377ac94823f315e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/tpm-common/clarity.md",
+      "sourceSha256": "b181507a8b1866e0eac0b03f3a7ae6e4c4d95e1bd04d3a088a7d5ac7303438e2",
+      "packagePath": "skills/program-management/references/source/tpm-risk/references/tpm-common/clarity.md",
+      "packageSha256": "8047c25d920a00ca3a1a58d1194bc265dca787c3633d207f9998edfe08c51672",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/tpm-common/program-vs-project.md",
+      "sourceSha256": "9c2cf75368dac958b04620b7a0f5f0780e58d212b8c2da720d8df91025ca761d",
+      "packagePath": "skills/program-management/references/source/tpm-risk/references/tpm-common/program-vs-project.md",
+      "packageSha256": "2d42194146f0cce0af8eb40029fac2a5d3bde8b94ace31ec3d8901cb0e0cd4ef",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/tpm-common/SOURCES.md",
+      "sourceSha256": "2a9ce0921eb1dd7ac8fe67f545efaac32668caebad9a101306462877c491789a",
+      "packagePath": "skills/program-management/references/source/tpm-risk/references/tpm-common/SOURCES.md",
+      "packageSha256": "f3ac96bd1a2741f713feea1b8b7e6c1eff947458f53dc48060e390a36af90154",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/LICENSE",
+      "sourceSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/LICENSE",
+      "packageSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/SKILL.md",
+      "sourceSha256": "931fcda4875e52b136b50f501164fc2d5f38f42a9230bf31b24b0c9823d868f9",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/ORIGINAL-SKILL.md",
+      "packageSha256": "e8b06e60447c27e673e481adf850ef3685ea836350a2328a0919f3fac1bb5e17",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/assets/comms-plan.md",
+      "sourceSha256": "3997c9dc08e8f48c9a8b9e1adb97dd6fe21fa9f4a68985dbc401ae92fedf6d8b",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/assets/comms-plan.md",
+      "packageSha256": "5b484734e7847e293a11df7ba5a6d23df8882d5efa9806bb9121401e49b22175",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/ORIGINAL-SKILL.md",
+      "sourceSha256": "5c7e51a34134047aa956f88284b9069b78ce8d9e17b4112e96f4c9c8bcbed5f4",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/references/ORIGINAL-SKILL.md",
+      "packageSha256": "92696093835f4db7b3dcf777b4e8d1fcdf036e692d67b0888cb53f425a996b61",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/stakeholders.md",
+      "sourceSha256": "ac2670c2e28f2a5a575cea48f1da5034b7cca2930514521a095d6c14746d92d8",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/references/stakeholders.md",
+      "packageSha256": "cae19185b324ea827ddb7e1dc17a2a4de887fa037b72a3348dd90be40a6a90da",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/tpm-integration-rules.md",
+      "sourceSha256": "fa84c3b0ad7e4762fd04c4288a98e9c05cb321969cd44064d0ab13a27c07e7be",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/references/tpm-integration-rules.md",
+      "packageSha256": "efac38fe7ef50356154690eadf53a22bc2ff8b8f75167f3a5377ac94823f315e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/tpm-common/clarity.md",
+      "sourceSha256": "b181507a8b1866e0eac0b03f3a7ae6e4c4d95e1bd04d3a088a7d5ac7303438e2",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/references/tpm-common/clarity.md",
+      "packageSha256": "8047c25d920a00ca3a1a58d1194bc265dca787c3633d207f9998edfe08c51672",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/tpm-common/program-vs-project.md",
+      "sourceSha256": "9c2cf75368dac958b04620b7a0f5f0780e58d212b8c2da720d8df91025ca761d",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/references/tpm-common/program-vs-project.md",
+      "packageSha256": "2d42194146f0cce0af8eb40029fac2a5d3bde8b94ace31ec3d8901cb0e0cd4ef",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/tpm-common/SOURCES.md",
+      "sourceSha256": "2a9ce0921eb1dd7ac8fe67f545efaac32668caebad9a101306462877c491789a",
+      "packagePath": "skills/program-management/references/source/tpm-stakeholders/references/tpm-common/SOURCES.md",
+      "packageSha256": "f3ac96bd1a2741f713feea1b8b7e6c1eff947458f53dc48060e390a36af90154",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/LICENSE",
+      "sourceSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "packagePath": "skills/program-management/references/source/tpm-status/LICENSE",
+      "packageSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modifications": []
+    },
+    {
+      "sourcePath": "skills/tpm-status/SKILL.md",
+      "sourceSha256": "a13ceccf4b493b5a15def4ae41fcb712fb738a9f63fbfd464d7568ca82f1a8ab",
+      "packagePath": "skills/program-management/references/source/tpm-status/ORIGINAL-SKILL.md",
+      "packageSha256": "4032803a29aceea8ce029b59db030b11d63e6be0d2efbfe07225dc11e024b2ca",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/assets/leadership-sync.md",
+      "sourceSha256": "3daced0a99443e2c2f8a57bf6189344f6272aed27511bb4c66945059b2b94fd5",
+      "packagePath": "skills/program-management/references/source/tpm-status/assets/leadership-sync.md",
+      "packageSha256": "87f4bf2e9015ffb5235c40fafe39e5556736af737fb5b5a2eea221a70796723c",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/assets/status-report.md",
+      "sourceSha256": "0b3a8dce2da542ddf9b5ccf65bb33d373ac5954339ba7784386caecc9382bd8a",
+      "packagePath": "skills/program-management/references/source/tpm-status/assets/status-report.md",
+      "packageSha256": "8ee637f12c4232f661f9b1c7e4515438cc753bb1d286fa6a46d1d3836f109e8e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/local-execution-contract.md",
+      "sourceSha256": "17636a18160299167ce3f26902c3112f04f9157cfce6e9377c232c47c8a6f3b0",
+      "packagePath": "skills/program-management/references/source/tpm-status/references/local-execution-contract.md",
+      "packageSha256": "5d1d437ed2db313bbe6b7e8374325fe7095e126e61dd03f2c3be58461b7258a7",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/ORIGINAL-SKILL.md",
+      "sourceSha256": "c7468b8c2e6c6da9b55cc06ba334baec8202817790ba4bd3de140650c8b0500e",
+      "packagePath": "skills/program-management/references/source/tpm-status/references/ORIGINAL-SKILL.md",
+      "packageSha256": "76c1c8b3b3473f2e724cf4cbba46a98be5e8e8eefbf2968fe555a4871a9d600b",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/status.md",
+      "sourceSha256": "5ac6fc93a41d6bde4d4920d8a2bb2ee95413f42dfc556b691abe1bd7f13d8f2b",
+      "packagePath": "skills/program-management/references/source/tpm-status/references/status.md",
+      "packageSha256": "af42717c3adb1d0740e77cca8cbd01ae12536eee8506b0a22c4b02eecdbd7c1e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/tpm-integration-rules.md",
+      "sourceSha256": "fa84c3b0ad7e4762fd04c4288a98e9c05cb321969cd44064d0ab13a27c07e7be",
+      "packagePath": "skills/program-management/references/source/tpm-status/references/tpm-integration-rules.md",
+      "packageSha256": "efac38fe7ef50356154690eadf53a22bc2ff8b8f75167f3a5377ac94823f315e",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/tpm-common/clarity.md",
+      "sourceSha256": "b181507a8b1866e0eac0b03f3a7ae6e4c4d95e1bd04d3a088a7d5ac7303438e2",
+      "packagePath": "skills/program-management/references/source/tpm-status/references/tpm-common/clarity.md",
+      "packageSha256": "8047c25d920a00ca3a1a58d1194bc265dca787c3633d207f9998edfe08c51672",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/tpm-common/program-vs-project.md",
+      "sourceSha256": "9c2cf75368dac958b04620b7a0f5f0780e58d212b8c2da720d8df91025ca761d",
+      "packagePath": "skills/program-management/references/source/tpm-status/references/tpm-common/program-vs-project.md",
+      "packageSha256": "2d42194146f0cce0af8eb40029fac2a5d3bde8b94ace31ec3d8901cb0e0cd4ef",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/tpm-common/SOURCES.md",
+      "sourceSha256": "2a9ce0921eb1dd7ac8fe67f545efaac32668caebad9a101306462877c491789a",
+      "packagePath": "skills/program-management/references/source/tpm-status/references/tpm-common/SOURCES.md",
+      "packageSha256": "f3ac96bd1a2741f713feea1b8b7e6c1eff947458f53dc48060e390a36af90154",
+      "modifications": [
+        "archive-modification-notice"
+      ]
+    }
+  ],
+  "referenceRepairs": [],
+  "nativeHostBehavior": "unverified",
+  "nativeHelpers": "archived source only; not enabled"
+}

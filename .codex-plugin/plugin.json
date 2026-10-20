@@ -1,0 +1,17 @@
+{
+  "name": "program-management",
+  "version": "0.1.0",
+  "description": "Draft program charters, delivery plans, risk registers, stakeholder plans, and evidence-grounded status reports.",
+  "author": {
+    "name": "Leotus-Richard"
+  },
+  "repository": "https://github.com/Leotus-Richard/program-management",
+  "license": "MIT AND Apache-2.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Program Management",
+    "shortDescription": "Draft program charters, delivery plans, risk registers, stakeho",
+    "developerName": "Leotus-Richard",
+    "category": "Development"
+  }
+}
