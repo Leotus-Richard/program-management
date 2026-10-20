@@ -1,0 +1,315 @@
+{
+  "formatVersion": 1,
+  "resources": [
+    {
+      "sourcePath": "skills/tpm/LICENSE",
+      "previousPackagePath": "skills/program-management/references/source/tpm/LICENSE",
+      "packagePath": "skills/program-management/references/r/055.license"
+    },
+    {
+      "sourcePath": "skills/tpm/SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/056.md"
+    },
+    {
+      "sourcePath": "skills/tpm/references/clarity.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm/references/clarity.md",
+      "packagePath": "skills/program-management/references/r/059.md"
+    },
+    {
+      "sourcePath": "skills/tpm/references/local-execution-contract.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm/references/local-execution-contract.md",
+      "packagePath": "skills/program-management/references/r/060.md"
+    },
+    {
+      "sourcePath": "skills/tpm/references/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm/references/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/057.md"
+    },
+    {
+      "sourcePath": "skills/tpm/references/program-vs-project.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm/references/program-vs-project.md",
+      "packagePath": "skills/program-management/references/r/061.md"
+    },
+    {
+      "sourcePath": "skills/tpm/references/SOURCES.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm/references/SOURCES.md",
+      "packagePath": "skills/program-management/references/r/058.md"
+    },
+    {
+      "sourcePath": "skills/tpm/references/tpm-integration-rules.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm/references/tpm-integration-rules.md",
+      "packagePath": "skills/program-management/references/r/062.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/LICENSE",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/LICENSE",
+      "packagePath": "skills/program-management/references/r/001.license"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/002.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/assets/charter.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/assets/charter.md",
+      "packagePath": "skills/program-management/references/r/003.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/charter.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/references/charter.md",
+      "packagePath": "skills/program-management/references/r/005.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/local-execution-contract.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/references/local-execution-contract.md",
+      "packagePath": "skills/program-management/references/r/006.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/references/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/004.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/tpm-integration-rules.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/references/tpm-integration-rules.md",
+      "packagePath": "skills/program-management/references/r/010.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/tpm-common/clarity.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/references/tpm-common/clarity.md",
+      "packagePath": "skills/program-management/references/r/008.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/tpm-common/program-vs-project.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/references/tpm-common/program-vs-project.md",
+      "packagePath": "skills/program-management/references/r/009.md"
+    },
+    {
+      "sourcePath": "skills/tpm-charter/references/tpm-common/SOURCES.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-charter/references/tpm-common/SOURCES.md",
+      "packagePath": "skills/program-management/references/r/007.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/LICENSE",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/LICENSE",
+      "packagePath": "skills/program-management/references/r/011.license"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/012.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/assets/buffer-matrix.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/assets/buffer-matrix.md",
+      "packagePath": "skills/program-management/references/r/013.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/assets/requirements.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/assets/requirements.md",
+      "packagePath": "skills/program-management/references/r/014.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/assets/tasks.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/assets/tasks.md",
+      "packagePath": "skills/program-management/references/r/015.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/assets/wbs.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/assets/wbs.md",
+      "packagePath": "skills/program-management/references/r/016.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/local-execution-contract.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/references/local-execution-contract.md",
+      "packagePath": "skills/program-management/references/r/018.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/references/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/017.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/planning.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/references/planning.md",
+      "packagePath": "skills/program-management/references/r/019.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/tpm-integration-rules.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/references/tpm-integration-rules.md",
+      "packagePath": "skills/program-management/references/r/023.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/tpm-common/clarity.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/references/tpm-common/clarity.md",
+      "packagePath": "skills/program-management/references/r/021.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/tpm-common/program-vs-project.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/references/tpm-common/program-vs-project.md",
+      "packagePath": "skills/program-management/references/r/022.md"
+    },
+    {
+      "sourcePath": "skills/tpm-plan/references/tpm-common/SOURCES.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-plan/references/tpm-common/SOURCES.md",
+      "packagePath": "skills/program-management/references/r/020.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/LICENSE",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/LICENSE",
+      "packagePath": "skills/program-management/references/r/024.license"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/025.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/assets/risk-register.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/assets/risk-register.md",
+      "packagePath": "skills/program-management/references/r/026.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/local-execution-contract.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/references/local-execution-contract.md",
+      "packagePath": "skills/program-management/references/r/028.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/references/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/027.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/risk.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/references/risk.md",
+      "packagePath": "skills/program-management/references/r/029.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/tpm-integration-rules.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/references/tpm-integration-rules.md",
+      "packagePath": "skills/program-management/references/r/033.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/tpm-common/clarity.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/references/tpm-common/clarity.md",
+      "packagePath": "skills/program-management/references/r/031.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/tpm-common/program-vs-project.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/references/tpm-common/program-vs-project.md",
+      "packagePath": "skills/program-management/references/r/032.md"
+    },
+    {
+      "sourcePath": "skills/tpm-risk/references/tpm-common/SOURCES.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-risk/references/tpm-common/SOURCES.md",
+      "packagePath": "skills/program-management/references/r/030.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/LICENSE",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/LICENSE",
+      "packagePath": "skills/program-management/references/r/034.license"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/035.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/assets/comms-plan.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/assets/comms-plan.md",
+      "packagePath": "skills/program-management/references/r/036.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/local-execution-contract.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/references/local-execution-contract.md",
+      "packagePath": "skills/program-management/references/r/038.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/references/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/037.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/stakeholders.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/references/stakeholders.md",
+      "packagePath": "skills/program-management/references/r/039.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/tpm-integration-rules.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/references/tpm-integration-rules.md",
+      "packagePath": "skills/program-management/references/r/043.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/tpm-common/clarity.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/references/tpm-common/clarity.md",
+      "packagePath": "skills/program-management/references/r/041.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/tpm-common/program-vs-project.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/references/tpm-common/program-vs-project.md",
+      "packagePath": "skills/program-management/references/r/042.md"
+    },
+    {
+      "sourcePath": "skills/tpm-stakeholders/references/tpm-common/SOURCES.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-stakeholders/references/tpm-common/SOURCES.md",
+      "packagePath": "skills/program-management/references/r/040.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/LICENSE",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/LICENSE",
+      "packagePath": "skills/program-management/references/r/044.license"
+    },
+    {
+      "sourcePath": "skills/tpm-status/SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/045.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/assets/leadership-sync.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/assets/leadership-sync.md",
+      "packagePath": "skills/program-management/references/r/046.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/assets/status-report.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/assets/status-report.md",
+      "packagePath": "skills/program-management/references/r/047.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/local-execution-contract.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/references/local-execution-contract.md",
+      "packagePath": "skills/program-management/references/r/049.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/ORIGINAL-SKILL.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/references/ORIGINAL-SKILL.md",
+      "packagePath": "skills/program-management/references/r/048.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/status.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/references/status.md",
+      "packagePath": "skills/program-management/references/r/050.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/tpm-integration-rules.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/references/tpm-integration-rules.md",
+      "packagePath": "skills/program-management/references/r/054.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/tpm-common/clarity.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/references/tpm-common/clarity.md",
+      "packagePath": "skills/program-management/references/r/052.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/tpm-common/program-vs-project.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/references/tpm-common/program-vs-project.md",
+      "packagePath": "skills/program-management/references/r/053.md"
+    },
+    {
+      "sourcePath": "skills/tpm-status/references/tpm-common/SOURCES.md",
+      "previousPackagePath": "skills/program-management/references/source/tpm-status/references/tpm-common/SOURCES.md",
+      "packagePath": "skills/program-management/references/r/051.md"
+    }
+  ]
+}

@@ -13,7 +13,7 @@ This hub consolidates the TPM source family without requiring a tracker plugin.
 
 Inspect supplied goals, plans, decisions, actuals, and authorized system-of-record
 data. Distinguish a program with related project outcomes/dependencies from a
-single project; the [program/project reference](references/source/tpm/references/program-vs-project.md)
+single project; the [program/project reference](references/r/061.md)
 can help. Reuse valid artifacts only when their scope, assumptions, and source age fit.
 Unknown sponsors, owners, dates, estimates, and approval states remain explicit.
 
@@ -21,11 +21,11 @@ Unknown sponsors, owners, dates, estimates, and approval states remain explicit.
 
 | Stage | Work and optional source template |
 | --- | --- |
-| Charter | State the problem, measurable goal, scope/exclusions, definitions, project contributions, constraints, and alternatives. Use [charter](references/source/tpm-charter/assets/charter.md) where useful. |
-| Plan | Trace requirements → scenarios → tasks → dependencies, with stable IDs. Record estimates, units, source, confidence, available capacity, milestones, and assumptions. Use [requirements](references/source/tpm-plan/assets/requirements.md), [tasks](references/source/tpm-plan/assets/tasks.md), [buffers](references/source/tpm-plan/assets/buffer-matrix.md), and [WBS](references/source/tpm-plan/assets/wbs.md). |
-| Risk | Separate potential risks from active issues. Link threatened work, consequence, early signal, response, and known/proposed owner. Use [risk register](references/source/tpm-risk/assets/risk-register.md); its ordinal P+I convention is a labeled judgment scale, not probability. |
-| Stakeholders | Capture affected teams, expressed needs, decision roles, proposed RACI, communication audiences, and cadence. Use [communication plan](references/source/tpm-stakeholders/assets/comms-plan.md); proposals do not establish assignments. |
-| Status | State period/as-of date, audience, actual progress, changes, issues, risks, decisions, and recovery actions. Use [status](references/source/tpm-status/assets/status-report.md) or requested [leadership notes](references/source/tpm-status/assets/leadership-sync.md). Filled templates do not prove meetings or notifications occurred. |
+| Charter | State the problem, measurable goal, scope/exclusions, definitions, project contributions, constraints, and alternatives. Use [charter](references/r/003.md) where useful. |
+| Plan | Trace requirements → scenarios → tasks → dependencies, with stable IDs. Record estimates, units, source, confidence, available capacity, milestones, and assumptions. Use [requirements](references/r/014.md), [tasks](references/r/015.md), [buffers](references/r/013.md), and [WBS](references/r/016.md). |
+| Risk | Separate potential risks from active issues. Link threatened work, consequence, early signal, response, and known/proposed owner. Use [risk register](references/r/026.md); its ordinal P+I convention is a labeled judgment scale, not probability. |
+| Stakeholders | Capture affected teams, expressed needs, decision roles, proposed RACI, communication audiences, and cadence. Use [communication plan](references/r/036.md); proposals do not establish assignments. |
+| Status | State period/as-of date, audience, actual progress, changes, issues, risks, decisions, and recovery actions. Use [status](references/r/047.md) or requested [leadership notes](references/r/046.md). Filled templates do not prove meetings or notifications occurred. |
 
 Load stage-specific detail through the [reference index](references/README.md)
 only when needed. Existing source templates are optional shapes, not fixed requirements.
@@ -54,7 +54,7 @@ plugins. External writes and message/calendar/schedule actions occur only when
 explicitly authorized for the action and destination. A communication plan or
 delivery schedule is a draft artifact, not an automation enrollment or deployment.
 
-Run the relevant [clarity check](references/source/tpm/references/clarity.md),
+Run the relevant [clarity check](references/r/059.md),
 then return artifact locations or text, evidence limits, and unresolved decisions.
 Do not reproduce commercial book material or claim access to historical corpus IDs.
 Archived source rules about hosts, network refresh, identity, and local-only work
